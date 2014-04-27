@@ -1,3 +1,55 @@
 body {
-  font-size: 16px;
+  font-size: 13px;
+  color: #555;
+}
+
+header h1 {
+    font-size: 1.5em;
+    text-shadow: 3px 0 0 #ececec;
+}
+
+@linkColor: #33a0d7;
+@linkHoverColor: darken(@linkColor, 10%);
+
+.link() {
+    color: @linkColor;
+    text-decoration: none;
+
+    &:hover {
+        color: @linkHoverColor;
+        text-decoration: underline;
+    }
+}
+
+header nav {
+    > a {
+        text-transform: capitalize;
+        .link();
+        margin-right: 5px;
+    }
+
+    a + a {
+        margin-left: 5px;
+    }
+}
+
+footer {
+    color: #777;
+    margin: 10px 0;
+}
+
+.post .title {
+    margin: 15px 0;
+
+    > * {
+        margin: 5px 0;
+    }
+
+    h1 {
+        text-transform: capitalize;
+    }
+
+    a {
+       .link(); 
+    }
 }

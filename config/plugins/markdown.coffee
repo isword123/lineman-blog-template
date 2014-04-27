@@ -7,9 +7,15 @@ module.exports = (lineman) ->
   config:
     markdown:
       options:
-        author: "FirstName LastName"
-        title: "my lineman blog"
-        description: "where I post all my brilliant ideas"
-        url: "http://www.mylinemanblog.com"
+        author: "Zhijian Xia"
+        title: "Zhijian's Blog"
+        description: "Where I post my learning and feelings"
+        url: "http://www.zhijian.me"
         rssCount: 10 #<-- remove, comment, or set to zero to disable RSS generation
         #disqus: "my_disqus_name" #<-- uncomment and set your disqus account name to enable disqus support
+
+      dev:
+        dest: "generated"
+        context:
+          js: "../js/app.js"
+          css: "../css/app.css"
