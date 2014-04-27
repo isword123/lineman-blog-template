@@ -1,6 +1,8 @@
 ---
-title: "About us"
+title: "About me"
 ---
-# Markdown page
+我呢，只想作为一个人好好活着，做点事情。
 
-I'm just an about page formatted in _markdown_!
+人在世上，只希望遇到一些有趣的人，做些有意思的事情，如此，人生则无憾已。
+> 王小波
+

@@ -16,7 +16,7 @@
     <%= yield %>
 
     <footer>
-      Copyright <%= site.author %>, <%= new Date().getFullYear() %>.
+        Copyright <a href="mailto:isword.xia@gmail.com"><%= site.author %></a>, <%= new Date().getFullYear() %>.
     </footer>
     <script type="text/javascript" src="<%= js %>"></script>
   </body>

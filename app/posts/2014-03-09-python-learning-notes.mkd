@@ -1,0 +1,31 @@
+
+## Python Learning
+
+### Decorator
+
+Two kinds of decorator:
+
+* Class type
+
+```python
+class decorator(f):
+    def __init__:
+        print '__init__'
+        self.f = f
+
+    def: __call__:
+        self.f()
+        print 'called'
+
+```
+
+* Function type
+
+```python
+def method(func):
+    def new_func():
+        func()
+        print 'new func here'
+
+    return new_func
+```

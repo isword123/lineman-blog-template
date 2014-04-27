@@ -2,7 +2,7 @@
   <div class="title">
     <h1><%= post.title() %></h1>
   </div>
-  <section>
+  <section class="content">
     <%= post.content() %>
   </section>
 </article>
