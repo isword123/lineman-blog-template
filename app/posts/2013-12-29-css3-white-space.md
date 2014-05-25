@@ -85,7 +85,7 @@ Control characters (Unicode class Cc) other than tab (U+0009), line feed (U+000A
 
 在空格处理步骤没有移除或者折叠的空格被称作**保留空格**
 
-<br />
+##### 引用
 > [Quiksmode](http://quirksmode.org/css/text/whitespace.html "quiks mode")  
 > [W3C CSS Text](http://www.w3.org/TR/css3-text/)
 

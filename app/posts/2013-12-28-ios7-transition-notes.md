@@ -110,4 +110,5 @@ Alert
 Modal View  
 
 * * *
+#### 引用
 > 原文：[iOS 7 UI Transition Guide](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/transitionguide/)

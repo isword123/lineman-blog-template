@@ -45,4 +45,5 @@ IE7 / IE8 不支持 media query，如有需要，要注意适配
 * 查询条件中，'min-'表示大于或等于，'max-'表示小于或等于
 
 
-> Referred [Media Queries](http://www.w3.org/TR/css3-mediaqueries/)  
+#### 引用
+> [Media Queries](http://www.w3.org/TR/css3-mediaqueries/)  

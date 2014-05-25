@@ -44,11 +44,9 @@
 <br />
 
 #### 引用
->
 > [Stakoveflow](http://stackoverflow.com/a/14652187/1847934)  
 > [CLang language extensions](http://clang.llvm.org/docs/LanguageExtensions.html#related-result-types)  
 > [instancetype](http://nshipster.com/instancetype/)  
-<br />
 
 #### Further Reading
 > [Typed collections with self types](http://www.jonmsterling.com/posts/2012-02-05-typed-collections-with-self-types-in-objective-c.html)
